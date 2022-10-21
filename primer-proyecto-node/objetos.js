@@ -18,7 +18,7 @@ const miEdad = Monica.edad
 console.log(miEdad)
 
 const listaAmigos = [
-    Monica,
+    ...Monica,
     { nombre: "Lorena", apellido:"Cervetti", edad:44, altura:1.75, eresDesarrollador: false },
     { nombre: "Rita", apellido:"Pereyra", edad:47, altura:1.67, eresDesarrollador: false },
 ]
